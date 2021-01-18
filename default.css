@@ -1,0 +1,69 @@
+header{
+    background-color: rgb(204, 204, 204);
+    color:white;
+    padding: 0px 25px;
+}
+h1 {    margin-top: 0;}
+
+nav {    
+    float: left;
+    width: 15%;
+}
+nav ul li {list-style: none;}
+
+#content {
+    margin-left: 20%;
+    padding: 10px 25px 10px 15px;
+}
+#mainh2 {
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(204, 204, 204);
+    padding: 0 40px;
+    color:white;
+}
+#fot-left{
+    float: left;
+}
+#fot-right {
+    margin-left: 80%;
+}
+
+                    /* 1. ESTILOS DE FUENTES */
+
+    /* Por defecto para todo el cuerpo del documento empleamos: 'Courier New', Courier, monospace. */
+*{ font-family: 'Courier New', Courier, monospace; }
+
+    /* Para todos los tipos encabezado (h1 hasta h6): 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    /* Tamaño de la fuente de los párrafos y las listas: 0.8 veces el tamaño de la fuente. */
+p, li { font-size: 0.8em;}
+
+    /* Tamaño de la fuente de las listas desordenadas (menú de la izquierda) 1.5 veces el tamaño de la fuente. */
+nav li { font-size: 1.5em;}
+
+    /* Color texto de los enlaces color negro. */
+a {color:black;}
+
+/* Color de los enlaces del menú al pasar por encima de el: texto sin el subrayado que tienen por defecto los enlaces, color de fondo “#a9a9a9”, color del texto blanco. */
+nav li a:hover {
+    text-decoration: none;
+    background-color: #a9a9a9;
+    color:white;
+}
+
+    /* Color de los enlaces del documento al pasar sobre el: texto sin el subrayado que tienen por defecto los enlaces, color de fondo “negro”, color del texto blanco. */
+a:hover{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+
+    /* Tamaño de los h2 de la cabecera 1 vez el tamaño de la fuente. */
+h2 { font-size: 1em;}
