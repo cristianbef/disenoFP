@@ -1,3 +1,7 @@
+/* en lugar de llamar a la hoja de estilos de normalize desde el html lo podemos importarla
+en el css y así no necesitamos hacer referencia a más de un css desde el html */
+@import url('normalize.css');
+
 header{
     background-color: rgb(204, 204, 204);
     color:white;
